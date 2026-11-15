@@ -1,0 +1,4 @@
+node_modules/
+db/freshmart.db
+db/freshmart.db-*
+.env

@@ -1,0 +1,15 @@
+{
+  "name": "freshmart-cold-storage",
+  "version": "1.0.0",
+  "description": "FreshMart Cold Storage - freezer shelf leasing API (BDF Group Assignment, JP-GAI2A-G11)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.0"
+  }
+}
